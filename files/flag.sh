@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # 说明： 如果需要将FLAG写到数据库，可以在下面去掉注释，并调整位置
 mysql -e "USE qsnctf;UPDATE user SET password='$FLAG' where username='user'" -uroot -proot
